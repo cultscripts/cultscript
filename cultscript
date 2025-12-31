@@ -1,0 +1,8 @@
+local cultscript = {}
+
+function cultscript:InfiniteYield()
+    local InfiniteYield = loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    InfiniteYield:Start()
+end
+
+return cultscript
